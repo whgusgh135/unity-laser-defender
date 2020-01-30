@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 114680750668384708}
   - component: {fileID: -4499446935834407309}
   m_Layer: 9
-  m_Name: EnemyRed2
+  m_Name: EnemyBig1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,8 +73,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a3e6dbfa0ee72524ab5ac99fcb8b4949, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 704491165222052438a84c9f9674a6dd, type: 3}
+  m_Color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -124,17 +124,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96a4d6b7c6410694cbb3071a39bd33e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  shotCounter: 0
+  health: 600
+  scoreValue: 400
   minTimeBetweenShots: 0.2
-  maxTimeBetweenShots: 3
-  projectile: {fileID: 1244960823702432, guid: 506dac7f495dde84abf695d0baa324d5, type: 3}
-  projectileSpeed: 10
+  maxTimeBetweenShots: 0.6
+  projectile: {fileID: 1244960823702432, guid: 6c76f342b22a6f84e9860bca792181f9, type: 3}
+  projectileSpeed: 2
   deathVFX: {fileID: 1084535117250786, guid: 14d7da55a7a4ca347a5ac27afebda4f9, type: 3}
   durationOfExplosion: 1
   deathSFX: {fileID: 8300000, guid: 6664aa7f6253d7a40887fdb8ae9922c0, type: 3}
   deathSoundVolume: 0.7
-  shootSound: {fileID: 8300000, guid: b47a42256d236d14983de04e028f9dc8, type: 3}
+  shootSound: {fileID: 8300000, guid: 9c3da07a099f9734a8bfb59a0f19c586, type: 3}
   shootSoundVolume: 0.25
 --- !u!50 &-4499446935834407309
 Rigidbody2D:
